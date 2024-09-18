@@ -28,7 +28,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/Elford42/dash:latest
+          tags: ghcr.io/elford42/dash:latest
 
       - name: Logout of GitHub Container Registry
         run: docker logout ghcr.io
