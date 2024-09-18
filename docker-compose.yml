@@ -2,7 +2,7 @@
 services:
   web:
     build: .
-    image: ghcr.io/Elford42/dash:latest
+    image: ghcr.io/elford42/dash:latest
     container_name: dash
     ports:
       - "80:8080"
